@@ -1,0 +1,5 @@
+"venv/"   # Ignore virtual environment directory if you have one
+"__pycache__/"   # Ignore Python bytecode cache
+"apikey.txt"   # Ignore API keys and sensitive information
+"*.pyc"   # Ignore compiled Python files
+"*.log"   # Ignore log files

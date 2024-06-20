@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Description</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Uploaded Image</h1>
+        <img src="{{ image_url }}" alt="Uploaded Image">
+        <div class="description">
+            <h2>Description:</h2>
+            <p>{{ description }}</p>
+        </div>
+        <a href="/">Upload another image</a>
+    </div>
+</body>
+</html>
